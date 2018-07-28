@@ -10,6 +10,6 @@ env:
   test2
 girl:
   name: damimisao
-  age: 26
+  age: 19
 server:
   port: 8039
