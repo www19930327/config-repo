@@ -10,6 +10,6 @@ env:
   test24
 girl:
   name: damimi
-  age: 252
+  age: 22
 server:
   port: 8039
