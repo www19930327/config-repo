@@ -9,7 +9,7 @@ spring:
 env:
   test2
 girl:
-  name: damimisaoaaa
-  age: 23
+  name: damimi
+  age: 21
 server:
   port: 8039
