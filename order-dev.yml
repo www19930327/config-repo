@@ -9,7 +9,7 @@ spring:
 env:
   test24
 girl:
-  name: saomimi
-  age: 24
+  name: mimi
+  age: 29
 server:
   port: 8039
