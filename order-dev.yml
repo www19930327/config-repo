@@ -7,9 +7,9 @@ spring:
     password: ane_user
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
 env:
-  test12
+  test122
 girl:
-  name: damimi
-  age: 18
+  name: damimi22
+  age: 12
 server:
   port: 8039
