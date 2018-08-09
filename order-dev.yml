@@ -6,6 +6,11 @@ spring:
     username: root
     password: ane_user
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 env:
   test1
 girl:
@@ -13,3 +18,10 @@ girl:
   age: 2011
 server:
   port: 8039
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic  
