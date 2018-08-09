@@ -13,3 +13,7 @@ spring:
     password: guest
   jpa:
     show-sql: true
+env:
+  dev
+server:
+  port: 8038
