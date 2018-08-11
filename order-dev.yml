@@ -12,10 +12,10 @@ spring:
     username: guest
     password: guest
 env:
-  test122
+  test1
 girl:
-  name: damimiss
-  age: 202
+  name: dami
+  age: 20
 server:
   port: 8039
 feign:
