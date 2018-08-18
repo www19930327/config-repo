@@ -11,11 +11,14 @@ spring:
     port: 5672
     username: guest
     password: guest
+  redis:
+    host: 192.168.235.237
+    port: 6379
 env:
   test2
 girl:
-  name: da123
-  age: 222
+  name: damimi
+  age: 18
 server:
   port: 8039
 feign:
