@@ -1,20 +1,20 @@
 zuul:
-  #全部服务忽略敏感头(全部服务都可以传递cookie)
-  sensitive-headers: 
   routes:
-  # /myProduct/product/list -> /product/product/list
-    aaaaaa:
-      path: /myProduct/**
-      serviceId: product
-      sensitiveHeaders:
+  #/myProduct/product/list -> /product/product/list  第一个product是服务名
+    myProduct:
+      path: /myProduct/**    #自定义路由myProduct
+      serviceId: product     #代替原来路由product
+      sensitiveHeaders:    #设置为空，不过滤cookie
   #简洁写法
-#    product: /myProduct/**
+#  product: /myProduct/**
   #排除某些路由
   ignored-patterns:
-    - /**/product/listForOrder 
+#    - /product/product/listForOrder  #限制该接口被外部访问
+#    - /myProduct/product/listForOrder
+    - /**/product/listForOrder  #排除某些路由
 management:
   security:
-    enabled: false    
+    enabled: false  
 ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
