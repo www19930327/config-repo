@@ -14,8 +14,8 @@ spring:
 env:
   test2
 girl:
-  name: mimimi
-  age: 20
+  name: damimi
+  age: 22
 server:
   port: 8039
 feign:
