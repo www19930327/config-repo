@@ -16,6 +16,9 @@ spring:
     port: 6379
 env:
   test2
+girl:
+  name: damimi
+  age: 18
 server:
   port: 8039
 feign:
