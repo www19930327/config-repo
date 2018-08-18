@@ -15,7 +15,7 @@ env:
   test2
 girl:
   name: mimimi
-  age: 19
+  age: 20
 server:
   port: 8039
 feign:
