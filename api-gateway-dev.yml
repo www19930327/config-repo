@@ -22,3 +22,7 @@ server:
 ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
+spring:
+  redis:
+    host: 192.168.235.237
+    port: 6379
