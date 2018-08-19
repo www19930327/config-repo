@@ -1,6 +1,6 @@
 zuul:
-    #排除所有敏感头，设置为空，不过滤cookie
-    sensitive-headers:
+    #全部服务忽略敏感头(全部服务都可以传递cookie)
+    sensitiveHeaders: 
   routes:
   #/myProduct/product/list -> /product/product/list  第一个product是服务名
     myProduct:
