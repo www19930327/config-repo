@@ -1,12 +1,12 @@
 zuul:
   #全部服务忽略敏感头(全部服务都可以传递cookie)
-  sensitiveHeaders: 
+  sensitive-headers: 
   routes:
   #/myProduct/product/list -> /product/product/list  第一个product是服务名
     myProduct:
       path: /myProduct/**    #自定义路由myProduct
       serviceId: product     #代替原来路由product
-      #sensitiveHeaders:    #当前服务，设置为空，不过滤cookie
+      #sensitive-headers:    #当前服务，设置为空，不过滤cookie
   #简洁写法
 #  product: /myProduct/**
   #排除某些路由
