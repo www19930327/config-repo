@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: ane_user
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.2.100:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
   rabbitmq:
     host: 192.168.235.237
     port: 5672
@@ -19,8 +19,6 @@ env:
 girl:
   name: damimi
   age: 18
-server:
-  port: 8039
 feign:
   client:
     config:
